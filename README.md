@@ -1,4 +1,4 @@
-# grunt-replace [![Build Status](https://secure.travis-ci.org/tomaszczechowski/grunt-replacer.png?branch=master)](http://travis-ci.org/tomaszczechowski/grunt-replace)
+# grunt-replacer [![Build Status](https://secure.travis-ci.org/tomaszczechowski/grunt-replacer.png?branch=master)](http://travis-ci.org/tomaszczechowski/grunt-replace)
 
 > Grunt replacer - replace string in files
 

@@ -41,7 +41,7 @@ module.exports = function (grunt) {
         },
 
         clean: {
-            dist: 'dist/*'
+            dist: 'test/dist/*'
         }
     });
 

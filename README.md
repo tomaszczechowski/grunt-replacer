@@ -44,7 +44,7 @@ options : {
 
 ### Usage Examples
 
-#### Combine two files into one output file
+#### Replace string in file
 
 ```js
 replacer: {

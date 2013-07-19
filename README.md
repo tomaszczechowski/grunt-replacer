@@ -63,7 +63,7 @@ replacer: {
 
 ## Release History
 
- * 2013-07-19...v0.1.0...First version of replacer. Replace string in selected files
+ * 2013-07-19   v0.1.0   First version of replacer. Replace string in selected files
 
 ---
 

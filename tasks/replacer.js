@@ -14,6 +14,7 @@ module.exports = function (grunt) {
     grunt.registerMultiTask('replacer', 'Replace code in files.', function () {
 
         var options = this.options();
+        var reportError = options.reportError ? grunt.fail.warn : grunt.log.error;
 
         this.files.forEach(function(filePair) {
             filePair.src.forEach(function(src) {
@@ -23,8 +24,12 @@ module.exports = function (grunt) {
                         for(var i in options.replace) {
                             from = i; to = options.replace[i];
                             regex = new RegExp(from,'g');
-                            content = content.replace(regex,to);
-                            grunt.log.writeln('Replace in ' + src + ': ' + from + ' to: '+ to);
+                            if (regex.test(content)) {
+                                content = content.replace(regex,to);
+                                grunt.log.writeln('Replace in ' + src + ': ' + from.green + ' to: '+ to.green);
+                            }else{
+                                reportError('Can\'t fide "' + from.red + '" in file '+ src);                                
+                            }
                         }
                         return content;
                     }

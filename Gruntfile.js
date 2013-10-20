@@ -16,8 +16,9 @@ module.exports = function (grunt) {
             index: {
                 options : {
                     replace: {
-                        '<!-- to-replace -->' : 'was replaced'
-                    }
+                        '<!-- to-replacec -->' : 'was replaced'
+                    },
+                    reportError: false
                 },
                 files : [
                     {src: ['test/index.html'], dest: 'test/dist/index.html'}

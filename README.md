@@ -42,6 +42,16 @@ options : {
 }
 ```
 
+Type: `reportError`
+
+This option is used to trow error to grunt log. Default is "false"
+
+```javascript
+options : {
+    reportError: true
+}
+```
+
 ### Usage Examples
 
 #### Replace string in file
@@ -61,9 +71,33 @@ replacer: {
 }
 ```
 
+#### Replace string in file using function response
+
+```js
+function(content) { return 'text'; } // @param string - content of replacing file
+```
+
+```js
+replacer: {
+    index: {
+        options : {
+            replace: {
+                '<!-- to-replace -->' : function(content) {
+                    return 'was replaced';
+                }
+            }
+        },
+        files : [
+            {src: ['path/to/file'], dest: 'path/to/output.file'}
+        ]
+    }
+}
+```
+
 ## Release History
 
  * 2013-07-19   v0.1.0   First version of replacer. Replace string in selected files
+ * 2013-10-20   v0.4.0   New features: colors, reportError and function as "to" param
 
 ---
 

@@ -7,7 +7,7 @@ exports.replacer = {
 
         var expect, result;
 
-        expect = 'Text was replaced';
+        expect = 'Text was replaced with function';
         result = grunt.file.read('test/dist/index.html');
         test.equal(expect, result, 'should replace selected code');
 

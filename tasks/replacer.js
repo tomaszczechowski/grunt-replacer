@@ -22,7 +22,9 @@ module.exports = function (grunt) {
                     process: function(content) {
                         var from, to, regex;
                         for(var i in options.replace) {
-                            from = i; to = options.replace[i];
+                            from = i; to = options.replace[i];                                                        
+                            to   = typeof to === 'function' ? to(content) : to;
+
                             regex = new RegExp(from,'g');
                             if (regex.test(content)) {
                                 content = content.replace(regex,to);

@@ -13,12 +13,14 @@ module.exports = function (grunt) {
     // Project configuration.
     grunt.initConfig({
         replacer: {
-            index: {
+            text: {
                 options : {
                     replace: {
-                        '<!-- to-replace -->' : 'was replaced'
-                    },
-                    reportError: false
+                        '<!-- to-replace -->' : 'was replaced',
+                        '<!-- to-replace-fn -->' : function() {
+                            return 'with function';
+                        }                        
+                    }
                 },
                 files : [
                     {src: ['test/index.html'], dest: 'test/dist/index.html'}

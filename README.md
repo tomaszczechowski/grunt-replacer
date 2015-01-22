@@ -101,6 +101,6 @@ replacer: {
 
 ---
 
-Task submitted by [Tomasz Czechowski](http://czechowski.me/)
+Task submitted by [Tomasz Czechowski](http://czechowski.pl/)
 
 *This file was generated on Fri July 19 2013 12:40:00.*

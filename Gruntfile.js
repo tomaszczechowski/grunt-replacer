@@ -19,11 +19,11 @@ module.exports = function (grunt) {
                         '<!-- to-replace -->' : 'was replaced',
                         '<!-- to-replace-fn -->' : function() {
                             return 'with function';
-                        }                        
+                        }
                     }
                 },
                 files : [
-                    {src: ['test/index.html'], dest: 'test/dist/index.html'}
+                    { src: ['test/index.html'], dest: 'test/dist/index.html' }
                 ]
             }
         },

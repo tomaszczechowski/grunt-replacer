@@ -98,6 +98,7 @@ replacer: {
 
  * 2013-07-19   v0.1.0   First version of replacer. Replace string in selected files
  * 2013-10-20   v0.4.0   New features: colors, reportError and function as "to" param
+ * 2015-07-03   v0.4.1   Clean up, fixed code formatting
 
 ---
 

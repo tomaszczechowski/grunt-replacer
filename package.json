@@ -1,12 +1,12 @@
 {
   "name": "grunt-replacer",
   "description": "Replace strings in files",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "homepage": "https://github.com/tomaszczechowski/grunt-replacer",
   "author": {
     "name": "Tomasz Czechowski",
     "email": "tomasz@czechowski.pl",
-    "url": "http://www.czechowski.me"
+    "url": "http://www.czechowski.pl"
   },
   "repository": {
     "type": "git",

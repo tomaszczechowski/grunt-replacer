@@ -1,4 +1,11 @@
-# grunt-replacer [![Build Status](https://secure.travis-ci.org/tomaszczechowski/grunt-replacer.png?branch=master)](http://travis-ci.org/tomaszczechowski/grunt-replace)
+# grunt-replacer 
+
+[![NPM][grunt-replacer-icon]][grunt-replacer-url]
+
+[![Build Status][grunt-replacer-ci-image]][grunt-replacer-ci-url]
+[![devdependencies][grunt-replacer-devdependencies-image]][grunt-replacer-devdependencies-url]
+
+[![Build Status](https://secure.travis-ci.org/tomaszczechowski/grunt-replacer.png?branch=master)](http://travis-ci.org/tomaszczechowski/grunt-replace)
 
 > Grunt replacer - replace string in files
 
@@ -95,13 +102,20 @@ replacer: {
 ```
 
 ## Release History
-
- * 2013-07-19   v0.1.0   First version of replacer. Replace string in selected files
- * 2013-10-20   v0.4.0   New features: colors, reportError and function as "to" param
+ * 2015-07-11   v0.4.2   Updated dev dependencies
  * 2015-07-03   v0.4.1   Clean up, fixed code formatting
+ * 2013-10-20   v0.4.0   New features: colors, reportError and function as "to" param
+ * 2013-07-19   v0.1.0   First version of replacer. Replace string in selected files
 
 ---
 
 Task submitted by [Tomasz Czechowski](http://czechowski.pl/)
 
 *This file was generated on Fri July 19 2013 12:40:00.*
+
+[grunt-replacer]: https://nodei.co/npm/grunt-replacer.png?downloads=true
+[grunt-replacer-url]: https://npmjs.org/package/grunt-replacer
+[grunt-replacer-ci-image]: https://secure.travis-ci.org/tomaszczechowski/grunt-replacer.png?branch=master
+[grunt-replacer-ci-url]: http://travis-ci.org/tomaszczechowski/grunt-replacer
+[grunt-replacer-devdependencies-image]: https://david-dm.org/tomaszczechowski/grunt-replacer/dev-status.png
+[grunt-replacer-devdependencies-url]: https://david-dm.org/tomaszczechowski/grunt-replacer#info=devDependencies

@@ -23,7 +23,7 @@
   ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.0"
   },
   "scripts": {
     "test": "grunt test"
@@ -35,9 +35,17 @@
     "grunt": "~0.4.5"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.5"
   },
   "keywords": [
-      "gruntplugin", "replace", "grunt", "string", "grunt replace string", "string replace", "replace string"
+    "gruntplugin",
+    "replace",
+    "grunt",
+    "string",
+    "grunt replace string",
+    "string replace",
+    "replace string",
+    "replace strings",
+    "replace code"
   ]
 }

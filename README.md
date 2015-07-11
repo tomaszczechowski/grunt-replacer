@@ -5,8 +5,6 @@
 [![Build Status][grunt-replacer-ci-image]][grunt-replacer-ci-url]
 [![devdependencies][grunt-replacer-devdependencies-image]][grunt-replacer-devdependencies-url]
 
-[![Build Status](https://secure.travis-ci.org/tomaszczechowski/grunt-replacer.png?branch=master)](http://travis-ci.org/tomaszczechowski/grunt-replace)
-
 > Grunt replacer - replace string in files
 
 ## Getting Started
@@ -113,7 +111,7 @@ Task submitted by [Tomasz Czechowski](http://czechowski.pl/)
 
 *This file was generated on Fri July 19 2013 12:40:00.*
 
-[grunt-replacer]: https://nodei.co/npm/grunt-replacer.png?downloads=true
+[grunt-replacer-icon]: https://nodei.co/npm/grunt-replacer.png?downloads=true
 [grunt-replacer-url]: https://npmjs.org/package/grunt-replacer
 [grunt-replacer-ci-image]: https://secure.travis-ci.org/tomaszczechowski/grunt-replacer.png?branch=master
 [grunt-replacer-ci-url]: http://travis-ci.org/tomaszczechowski/grunt-replacer

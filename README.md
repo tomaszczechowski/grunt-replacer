@@ -8,7 +8,7 @@
 > Grunt replacer - replace string in files
 
 ## Getting Started
-This plugin requires Grunt `~0.4.0`
+This plugin requires Grunt `>=0.4.5`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -100,6 +100,7 @@ replacer: {
 ```
 
 ## Release History
+ * 2016-02-27   v0.4.3   Updated dependencies
  * 2015-07-11   v0.4.2   Updated dev dependencies
  * 2015-07-03   v0.4.1   Clean up, fixed code formatting
  * 2013-10-20   v0.4.0   New features: colors, reportError and function as "to" param

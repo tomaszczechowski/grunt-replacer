@@ -100,6 +100,7 @@ replacer: {
 ```
 
 ## Release History
+ * 2016-09-11   v0.4.4   Updated dependencies
  * 2016-02-27   v0.4.3   Updated dependencies
  * 2015-07-11   v0.4.2   Updated dev dependencies
  * 2015-07-03   v0.4.1   Clean up, fixed code formatting

@@ -1,7 +1,7 @@
 {
   "name": "grunt-replacer",
   "description": "Replace strings in files",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "homepage": "https://github.com/tomaszczechowski/grunt-replacer",
   "author": {
     "name": "Tomasz Czechowski",
@@ -31,7 +31,7 @@
   "devDependencies": {
     "grunt-contrib-jshint": "~1.0.0",
     "grunt-contrib-clean": "~1.0.0",
-    "grunt-contrib-nodeunit": "~0.4.1"
+    "grunt-contrib-nodeunit": "~1.0.0"
   },
   "peerDependencies": {
     "grunt": ">=0.4.5"
